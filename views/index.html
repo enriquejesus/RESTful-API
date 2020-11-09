@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<h1>Subir archivo facultad</h1>
+	<form action="upload.php" method="post" enctype="multipart/form-data">
+        
+        <p>Nombre del recurso</p>
+        <input type="text" name="nombre_recurso" required><br>
+        <p>Escojer archivo</p>
+        <input type="file" name="ruta">
+        <p>Extension del Archivo</p>
+        <input type="text" name="ext_recurso" required><br>
+        <p>ID institucion</p>
+        <input type="text" name="institucionesid_institucion" required><br>
+		<br><br>
+        <input type="submit" value="Enviar">
+	</form>
+</body>
+</html>
